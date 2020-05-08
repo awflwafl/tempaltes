@@ -1,0 +1,7 @@
+version: '3'
+services:
+  script:
+    build: .
+    command: python script.py
+    volumes:
+      - './:/usr/src/app'
